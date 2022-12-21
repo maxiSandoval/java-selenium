@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="082866ac-f963-4c5f-b7cc-cfdb766a7f91" name="Changes" comment="" />
+    <list default="true" id="082866ac-f963-4c5f-b7cc-cfdb766a7f91" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HelloSelenium2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloSelenium2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HelloSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HelloSelenium2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HelloSelenium2Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HelloSeleniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HelloSeleniumTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,8 +57,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Source\first-course\java-selenium\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Source\first-course\java-selenium" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.HelloSeleniumTest.firstTest">
     <configuration name="HelloSelenium2Test.smarterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-selenium" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,8 +72,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HelloSeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HelloSeleniumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloSeleniumTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HelloSeleniumTest" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HelloSeleniumTest.firstTest" />
+        <item itemvalue="JUnit.HelloSeleniumTest" />
         <item itemvalue="JUnit.HelloSelenium2Test.smarterTest" />
       </list>
     </recent_temporary>
