@@ -10,7 +10,7 @@ public class HelloSelenium2Test {
    @Test
     public void smarterTest()
     {
-        System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src/resources/browserBinaries/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
         driver.quit();
