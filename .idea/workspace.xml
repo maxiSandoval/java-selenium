@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="082866ac-f963-4c5f-b7cc-cfdb766a7f91" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WithAssertionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WithConfigurationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/browser/BrowserGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/browserBinaries/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/browserBinaries/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/browserBinaries/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/browserBinaries/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/browserBinaries/geckodriverMac" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HelloSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloSeleniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HelloSelenium2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HelloSelenium2Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HelloSeleniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HelloSeleniumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/browserBinaries/chromedriverMac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HelloSelenium2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HelloSelenium2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HelloSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HelloSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WithAssertionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WithAssertionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WithConfigurationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WithConfigurationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/browser/BrowserGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/browser/BrowserGetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,69 +68,44 @@
       <recent name="C:\Source\first-course\java-selenium\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Source\first-course\java-selenium\src" />
+      <recent name="C:\Source\first-course\java-selenium\resources" />
       <recent name="C:\Source\first-course\java-selenium" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WithConfigurationTest.justATest">
-    <configuration name="HelloSelenium2Test.smarterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="WithConfigurationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HelloSelenium2Test" />
-      <option name="METHOD_NAME" value="smarterTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloSeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HelloSeleniumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WithConfigurationTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=chrome" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloSeleniumTest.TestSteps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="java-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HelloSeleniumTest" />
-      <option name="METHOD_NAME" value="TestSteps" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloSeleniumTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HelloSeleniumTest" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WithConfigurationTest.justATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WithConfigurationTest" />
-      <option name="METHOD_NAME" value="justATest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=chrome" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WithConfigurationTest.justATest" />
-        <item itemvalue="JUnit.HelloSeleniumTest.TestSteps" />
-        <item itemvalue="JUnit.HelloSeleniumTest.firstTest" />
-        <item itemvalue="JUnit.HelloSeleniumTest" />
-        <item itemvalue="JUnit.HelloSelenium2Test.smarterTest" />
+        <item itemvalue="JUnit.WithConfigurationTest" />
       </list>
     </recent_temporary>
   </component>
