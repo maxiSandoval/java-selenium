@@ -62,14 +62,15 @@ public class BrowserGetter {
 
     public WebDriver getDriver() {
         switch (System.getProperty("browser").toLowerCase()) {
-            case "chrome" :
+            case "chrome" -> {
                 System.out.println("Chrome was chosen!");
                 return getChromeDriver();
-            case "firefox" :
+            }
+            case "firefox" -> {
                 System.out.println("Firefox was chosen!");
                 return getFirefoxDriver();
-            default:
-                throw new RuntimeException("Unsupported browser! Will not start any browser!");
+            }
+            default -> throw new RuntimeException("Unsupported browser! Will not start any browser!");
         }
     }
 
