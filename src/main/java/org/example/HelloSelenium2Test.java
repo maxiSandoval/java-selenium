@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class HelloSelenium2Test {
-    //This method will run once before all of the tests in our class
+    //This method will run once before all the tests in our class
 
    @Test
     public void smarterTest()
